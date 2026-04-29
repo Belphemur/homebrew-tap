@@ -4,22 +4,22 @@ cask "obsidian-headless" do
 
   on_macos do
     on_intel do
-      sha256 "25b1cd2b8559954c9e27edb3669781f764a438f2c2c2fdcab908757c48da2eba"
+      sha256 "69bbd707a638ef82a8653c8eca70d05d05b7cb48ee4b46bfcd25618cff4de18e"
       url "https://github.com/Belphemur/obsidian-headless/releases/download/v#{version}/obsidian-headless_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "8e91c9c0c7e004e48f55cf8497e1bc577721928f34fc75b7ba4de0d84d3027ca"
+      sha256 "82cfc7bb8eab138579a408a61990e5f3624117eb8e2ae717452af683aa25febb"
       url "https://github.com/Belphemur/obsidian-headless/releases/download/v#{version}/obsidian-headless_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "5bf3d2f3c0e144654277f1b62eec4a2d84db93eed8747523f039b31851b3c703"
+      sha256 "f4d89dea1efde4ee915877272c22d4998119006ff17db833be6e9445a417125d"
       url "https://github.com/Belphemur/obsidian-headless/releases/download/v#{version}/obsidian-headless_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "c316a357054e3385e11c91517d0dd7cab89613bcecb887f8f62d81e89367ddce"
+      sha256 "a00eab5b935c6b934a56ff1e506585dbd438409d895803451982762b95960482"
       url "https://github.com/Belphemur/obsidian-headless/releases/download/v#{version}/obsidian-headless_Linux_arm64.tar.gz"
     end
   end
